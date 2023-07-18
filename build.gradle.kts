@@ -14,6 +14,7 @@ repositories {
 
 dependencies {
     testImplementation(kotlin("test"))
+    implementation("org.ktorm:ktorm-core:3.6.0")
 }
 
 tasks.test {
